@@ -24,3 +24,4 @@ $(DIR_O)\UTF8DocumentIterator.obj:: ../../boostregex/UTF8DocumentIterator.cxx
 $(DIR_O)\BoostRegexSearch.obj:: ../../boostregex/BoostRegexSearch.cxx ../src/CharClassify.h ../src/RESearch.h	
 	$(CC) $(CXXFLAGS) -D_SILENCE_ALL_CXX17_DEPRECATION_WARNINGS -c ../../boostregex/BoostRegexSearch.cxx
 
+comment git
